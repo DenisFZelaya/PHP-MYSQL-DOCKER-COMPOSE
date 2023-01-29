@@ -1,5 +1,5 @@
 <?php
-
+ echo "<h1>Prueba connecion a base de datos</h1>";
 $mysqli = new mysqli("host_mariadb", "root", "custom.2023", "custom_db");
 
 if ($mysqli->connect_errno) {
